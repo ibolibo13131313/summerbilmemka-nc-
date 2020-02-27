@@ -1,0 +1,305 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-26T16:21:40.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3031200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Default page number",
+        "description": "",
+        "id": "contacts-page;default-page-number",
+        "after": [
+          {
+            "result": {
+              "duration": 1570966400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10238595300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12261278700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enter the sales manager information",
+            "match": {
+              "location": "LoginStepDefs.the_user_enter_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5702783600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefs.the_user_navigates(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169895600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "default page number should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefs.default_page_number_should_be(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-26T16:22:10.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 273400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "menu options",
+        "description": "",
+        "id": "contacts-page;menu-options",
+        "after": [
+          {
+            "result": {
+              "duration": 1196425400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15041139500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user logged in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefs.the_user_logged_in_as_a(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2494981600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see following menu options",
+            "match": {
+              "location": "ContactStepDefs.the_user_should_see_following_menu_options(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-26T16:22:28.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 126200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "login as a given user",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1831386100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7198639200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11180810100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user logs in using following credentials",
+            "match": {
+              "location": "ContactStepDefs.the_user_logs_in_using_following_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Doe"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2034614200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Contacts Page",
+    "description": "",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  }
+]
